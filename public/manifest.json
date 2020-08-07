@@ -9,9 +9,13 @@
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff",
   "manifest_version": 2,
-  "permissions": ["tabs"],
+  "permissions": ["tabs",
+    "notifications",
+    "http://*/*",
+    "https://*/*", 
+    "activeTab",
+    "<all_urls>"],
   "version": "0.0.1",
   "browser_action": {
     "default_popup": "index.html",
@@ -19,7 +23,7 @@
   },
   "content_security_policy": "script-src 'self' 'sha256-p5hOtlld76OubQRjuoOzFkH1phfMCtQyYciqJYR0hgk='",
   "background": {
-    "scripts":["Background.js"],
+    "scripts":["backgroundBundle.js"],
     "persistent": false
   }
 
