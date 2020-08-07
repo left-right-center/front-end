@@ -8,20 +8,8 @@ function App() {
         <header className="App-header">
           <div className="Heading">
             <img src = {besideHeading} alt='headingLogo'/>
-              <div className="Name"> <span>Left, Right, Center! </span></div>
+              <div className="Name"> <span> <h1>Left, Right, Center!</h1> </span></div>
             </div>
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-            
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
         </header>
     </div>
   );
