@@ -1,3 +1,6 @@
+## What is this?
+The fun front-end for a chrome extension that lets one obtain news from the other end of the political spectrum that they are on!
+## Bootstrapping
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
