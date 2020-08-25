@@ -1,6 +1,6 @@
 ## What is this?
 The fun front-end for a chrome extension that lets one obtain news from the other end of the political spectrum that they are on!
-![alt text](https://github.com/aritramullick/left-right-center/front-end/master/Design.png?raw=true)
+![alt text](./Design.png?raw=true)
 ## Bootstrapping
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
