@@ -21,11 +21,7 @@
     "default_popup": "index.html",
     "default_title": "Basic React!"
   },
-  "content_security_policy": "script-src 'self' 'sha256-p5hOtlld76OubQRjuoOzFkH1phfMCtQyYciqJYR0hgk='",
-  "background": {
-    "scripts":["backgroundBundle.js"],
-    "persistent": false
-  }
+  "content_security_policy": "script-src 'self' 'sha256-p5hOtlld76OubQRjuoOzFkH1phfMCtQyYciqJYR0hgk='"
 
 
 }

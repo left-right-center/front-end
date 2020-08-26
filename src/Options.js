@@ -4,7 +4,8 @@ class Options extends React.Component {
     render(){
         return (
             <div className="OptionNumbers">
-                Option #{this.props.number+1}
+                Option 
+                <a href={this.props.links} target='_blank' >#{this.props.number+1}</a>
             </div>
 
         );
